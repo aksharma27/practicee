@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz@12..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+*{
+    margin: 0;
+    padding-left:2.6px;
+    padding-right: 3px;
+}
+.header h2 img{
+    height: 80px;
+    width: 80px;
+}
+
+.body{
+    padding-right: 10px;
+    /* padding-left: 19px; */
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: large; */
+    /* line-height: 30px; */
+    font-family: 'Inconsolata', monospace;
+}
+.header h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    font-size: xx-large;
+}
+hr{
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+.body ul li{
+    list-style:circle;
+    align-items:center;
+}
+.body samp{
+    font-weight: 700;
+    color: crimson;
+}
+.body h3{
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    .container{
+        font-size: large;
+    }
+    hr{
+        opacity: 0.5;
+    }
+    .body{
+        margin-left: -370px;
+        float: left;
+    }
+}
