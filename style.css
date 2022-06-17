@@ -17,6 +17,10 @@
     //padding-right: 80px;
    
 }
+.box .form iframe{
+    float:right;
+    margin-left:20px;
+}
 
 .body{
     padding-right: 10px;
