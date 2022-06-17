@@ -10,10 +10,10 @@
     width: 80px;
 }
 .box{
-    float: left;
+    float: right;
     margin-bottom: 40px;
     margin-left: 80px;
-    padding-right: 80px;
+    //padding-right: 80px;
    
 }
 
